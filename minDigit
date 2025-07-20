@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        int n=12376854;
+        int minDigit=9;
+        while(n>0){
+            int digit=n%10;
+            if(digit<minDigit){
+                minDigit=digit;
+            }
+            n/=10;
+        }
+        System.out.println(minDigit);
+    }
+}
