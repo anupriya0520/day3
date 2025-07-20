@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        int n=12;
+        int power=5;
+        int result=0;
+        for(int i=1;i<=power;i++){
+            result=n*i;
+        }
+        System.out.println(result);
+    }
+}
